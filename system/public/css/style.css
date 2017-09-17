@@ -1,0 +1,510 @@
+/* Specially CSS for dogTalent website */
+
+.image-box{
+	width:118px;
+	height:148px !important;
+	border: 1px solid;
+	float:left;
+	margin:0 0 10px 5px;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.image-box > a {
+	width:200px;
+	height:200px;
+}
+
+/* Contact Form */
+
+section#contact {
+    background-color: #222222;
+    background-image: url('http://artdnaswitchbd.com/componants/images/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section {
+    padding: 30px 0PX;
+}
+section#contact .section-heading {
+    color: white;
+}
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+section#contact .form-group input.form-control {
+    height: auto;
+}
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+.gellary_bg_none img{
+	width: 100%;
+	height: 250px;
+}
+section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+.about_our_company{
+    text-align: center;
+}
+.about_our_company h1{
+    font-size: 25px;
+}
+.titleline-icon {
+    position: relative;
+    max-width: 100px;
+    border-top: 4px double #F99700;
+    margin: 20px auto 20px;
+}
+.titleline-icon:after {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'FontAwesome';
+    content: "\f141";
+    font-size: 20px;
+    line-height: 1;
+    color: #F99700;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 20px;
+    background: #ffffff;
+}
+
+/* Profile */
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+/* Dog Talent */
+@charset "utf-8";
+body {
+    font: 13px Verdana, Tahoma, Arial;
+    text-align: left; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+    color: #666;
+}
+.dogTalent #container {
+    margin: 0 auto;
+    text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+.dogTalent #banner {
+    padding-top: 0;
+    margin-bottom: 15px;
+}
+
+.dogTalent #header h1 {
+    margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+    padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.dogTalent #mainContent {
+    height: 525px;
+    width: 920px;
+    overflow: hidden;
+}
+.dogTalent #footer {
+    margin-top: 15px;
+    border-top: 1px dashed #CCC;
+    font: 11px Verdana, Tahoma, Arial;
+    margin: 0 auto;
+}
+.dogTalent #footer p {
+    margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+    padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+.logo {
+    float: left;
+    width: 250px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.topbutton {
+    float: right;
+    color: #CCC;
+    height: 40px;
+    padding-top: 95px;
+    font: Verdana, Tahoma, Arial;
+}
+
+.linkbutton {
+    float: left;
+    padding-top: 5px;
+    color: #CCC;
+}
+
+a:link {
+    color: #666666;
+    text-decoration: none;
+}
+a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+a:active {
+    color: #666666;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #996600;
+}
+p {
+    font: 13px Verdana, Tahoma, Arial;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+#content {
+    overflow: hidden;
+}
+.countries {
+    float: right;
+    padding-top: 5px;
+    color: #CCC;
+    font-size: 9px;
+    text-align: right;
+}
+
+.textitalic666 {
+    font-style: italic;
+    color: #666;
+}
+.hpimage {
+    border: 1px solid #CCC;
+    height: 518px;
+    width: 898px;
+}
+.goldhighlight {
+    color: #996600;
+}
+#profile {
+    float: left;
+    height: 522px;
+    width: 345px;
+    margin-right: 10px;
+}
+#profileimage {
+    float: right;
+    height: 550px;
+    width: 540px;
+
+}
+
+.profilename {
+    font-size: 20px;
+    color: #996600;
+    margin-bottom: 10px;
+    float: left;
+}
+.profilethumbcontainer {
+    width: 340px;
+}
+
+.profilethumb {
+    width: 80px;
+    margin-bottom: 4px;
+    height: 100px;
+    margin-right: 4px;
+}
+.profileinfo {
+    width: 315px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin-top: 10px;
+}
+.profiletbcolor {
+    padding: 10px;
+    border: 1px solid #CCC;
+}
+.image {
+    border: 1px solid #CCC;
+}
+
+.imagetable {
+    height: 520px;
+    width: 540px;
+}
+
+
+.infotextdata {
+    color: #999;
+}
+
+.infobox {
+    color: #999;
+    height: 18px;
+    font: 12px Verdana, Tahoma, Arial, "新細明體","微軟正黑體";
+}
+.infotextright {
+    width: 125px;
+    text-align: right;
+    float: left;
+    margin-right: 10px;
+}
+.graytext {
+    font-size: 14px;
+    color: #999;
+    margin-left: 5px;
+}
+
+.scrollbarcontainer {
+    height: 420px;
+    overflow: auto;
+
+}
+.searchbar {
+    width: 120px;
+    text-align: right;
+    color: #996600;
+    font-size: 10px;
+}
+.searchbariframe {
+    width: 110px;
+    text-align: right;
+    color: #996600;
+    font-size: 13px;
+}
+
+
+.sidebar {
+    float: left;
+    height: 520px;
+    width: 120px;
+    overflow: hidden;
+    text-align: right;
+    color: #996600;
+    margin-right: 10px;
+}
+#subbutton {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#subcontent {
+    height: 460px;
+    width: 700px;
+    margin-left: 200px;
+}
+#subsidebar {
+    float: left;
+    height: 450px;
+    width: 200px;
+}
+
+.thumbbox {
+    float: none;
+    font-size: 80%;
+}
+.thumbcontainer {
+    height: 170px;
+    width: 130px;
+}
+
+.clearp {
+    font-size: 1px;
+}
+
+
+.enlarge {
+    font-size: 130%;
+}
+.buttontoright {
+    float: right;
+}
+.center {
+    padding: 180px 0px 0px 300px;
+}
+.textiframe {
+    width: 530px;
+    text-align: justify;
+    color: #999;
+    font-size: 13px;
+}
+.textsmaller {
+    font-size: 85%;
+}
+.textright {
+    text-align: right;
+}
+.textChinese {
+    font-size: 95%;
+    line-height: 150%;
+}
+.textbox {
+    font-size: 95%;
+    line-height: 150%;
+    padding: 20px 40px;
+    border: 1px solid #CCC;
+}
+.textheadingcentergold {
+    font-size: 20px;
+    color: #996600;
+    text-align: center;
+}
+.textgray15 {
+    font-size: 15px;
+    color: #999;
+    font-weight: 500;
+}
+iframe {
+    overflow: auto;
+    height: 520px;
+    width: 780px;
+}
+#photocontent {
+    width: 770px;
+    overflow: hidden;
+}
+
+.left-col{
+    height:700px;
+}
+
+.right-col{
+    height:700px;
+}
+
+.body-content{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/**************************************************************
+
+    SlideShow
+    v 1.3
+
+**************************************************************/
+
+.slideshowContainer {
+    width: 898px;
+    height: 518px;
+}
+
+.loading {
+    background: url(loading.gif) center no-repeat;
+}
+
+.slideshowThumbnail {
+    outline: none;
+}
+
+.slideshowThumbnail img {
+    border: 1px solid white;
+    padding: 4px;
+}
+
+a:hover.slideshowThumbnail img {
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+.current img {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+body {
+    color: #FFF;
+    font-family: Verdana, Arial;
+    font-size: 75%;
+}
+
+.container {
+    margin: auto;
+}
+
+.outline {
+    z-index: 0;
+    position: absolute;
+}
+
+#thumbnails {
+    /*width: 130px;
+    float: left;*/
+}
+
+/*************************************************************/
+
+/*
+ *  STYLE 11 - scrollbar
+ */
+
+#style-11::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#style-11::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-11::-webkit-scrollbar-thumb
+{
+    background-color: #3366FF;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(0deg,
+                                              rgba(255, 255, 255, 0.5) 25%,
+                                              transparent 25%,
+                                              transparent 50%,
+                                              rgba(255, 255, 255, 0.5) 50%,
+                                              rgba(255, 255, 255, 0.5) 75%,
+                                              transparent 75%,
+                                              transparent)
+}
+

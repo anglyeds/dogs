@@ -1,0 +1,51 @@
+###########################################
+################ READ ME ##################
+###########################################
+
+1) composer require tcg/voyager
+
+2) Configure .env ->database 
+
+3) config/app.php 
+'providers' => [
+    // Laravel Framework Service Providers...
+    //...
+    
+    // Package Service Providers
+    TCG\Voyager\VoyagerServiceProvider::class,
+    // ...
+    
+    // Application Service Providers
+    // ...
+],
+
+4)php artisan voyager:install --with-dummy
+
+if Error 
+Syntax violation 1071 specific key was too long
+then
+app/Providers/AppServiceProvider.php
+
+public function boot()
+{
+	Schema::defaultStringLength(191);
+}
+
+if Error Login to Voyager Admin
+5)composer dumpautoload
+6)php artisan db:seed --class=VoyagerDatabaseSeeder
+
+7) php artisan storage:link
+
+8) config/filesystems.php
+
+'public' => [
+    'driver' => 'local',
+    'root' => storage_path('app/public'),
+    'url' => env('APP_URL').'/system/public/storage',
+    'visibility' => 'public',
+    ],
+
+
+
+

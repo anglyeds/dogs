@@ -15,7 +15,24 @@ class OtherController extends Controller
     public function index($id)
     {
     	$others = Other::find($id);
+
+        $data = (object)[
+            'name' => $others->name,
+            'description' => $others->description,
+            'image' =>  $others->image,
+            'location' => $others->location,
+            'type' => $others->type,
+            'breed' => $others->breed,
+            'size' => $others->size,
+            'age' => $others->age,
+            'coat_colour' => $others->coat_colour,
+            'skills'=> $others->skills,
+            'shooting_exp' => $others->shooting_exp,
+            'video_link' => $others->video_link,
+            'multiple_images' => $others->multiple_images
+        ];
+        
         return view('others.profile')
-            ->with('other', $others);
+            ->with('other', $data);
     }
 }

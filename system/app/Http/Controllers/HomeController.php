@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use TCG\Voyager\Models\Post;
+use TCG\Voyager\Models\Page;
 use App\Banner;
 use App\Dog;
 use App\Cat;
@@ -53,11 +54,13 @@ class HomeController extends Controller
 
     public function contact()
     {
-        return view('contacts.index');
+        $posts = Post::all();
+        return view('contacts.index')->with('post', $posts);
     }
 
     public function becomeModels() {
-        return view('become-model.index');
+        $posts = Post::all();
+        return view('become-model.index')->with('post',$posts);
     }
 
     public function about()

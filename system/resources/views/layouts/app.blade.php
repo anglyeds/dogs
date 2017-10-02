@@ -51,6 +51,11 @@
 
 }
 
+body{
+    background-color: #000000;
+    color: #dddddd;
+}
+
 .navbar{
         margin-bottom: 0px !important;
 }

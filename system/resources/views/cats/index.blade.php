@@ -47,7 +47,7 @@
 <div class="body-content row">
 	<div class="col-md-2 text-left">
 		<h1 id="sidebar-heading">Cats</h1>
-		<h5 id="click">Find cats by name</h5>
+		<a id="click" href="#">Find cats by name</a>
 		<div id="filter-list" style="max-height: 500px;overflow-y:scroll">
 
 			<div class="item-list">

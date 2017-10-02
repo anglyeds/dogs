@@ -47,9 +47,9 @@
 <div class="body-content row">
 	<div class="col-md-2 text-left">
 		<h1 id="sidebar-heading">Dogs</h1>
-		<h5 id="click">Find dogs by name</h5>
+		<a id="click" href="#">Find dogs by name</a>
 		<div id="filter-list" style="max-height: 500px;overflow-y:scroll">
-
+		
 			<div class="item-list">
 			@foreach($dog as $value)			
 					<a class="item-red" href="{{ URL::to('/dogs/profile/'.$value->id) }}"><div class="items">{{ $value->name }}</div></a>			

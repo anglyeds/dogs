@@ -90,7 +90,7 @@ body{
 
         <div id="header">
             <div class="logo">
-                <a href="{{route('home')}}"><img class="img-responsive" src="{{ URL::asset('/storage/logo/logo1.png') }}" style=""></a>
+                <a href="{{route('home')}}"><img class="img-responsive" src="{{ URL::asset('/storage/logo/logo1.png') }}" style="width:130px"></a>
             </div>
 
             <div class="topbutton hidden-xs">               
